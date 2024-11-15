@@ -1,0 +1,6 @@
+[user]
+	email = hao_wen@brown.edu
+	name = hwen5
+	password = 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
+[credential]
+	helper = "!f() { /home/fullstack-user/.vscode-server/bin/e8653663e8840adaf45af01eab5c627a5af81807/node /tmp/vscode-remote-containers-7db3ebd9-0f4d-45e2-8bca-004391aaf8fd.js git-credential-helper $*; }; f"

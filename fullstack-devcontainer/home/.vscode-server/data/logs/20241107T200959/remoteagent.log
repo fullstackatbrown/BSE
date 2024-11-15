@@ -1,0 +1,38 @@
+2024-11-08 01:10:00.223 [info] 
+
+
+
+
+2024-11-08 01:10:00.250 [info] Installing extensions...
+2024-11-08 01:10:00.276 [info] Extension host agent started.
+2024-11-08 01:10:00.535 [debug] Error while reading the extension cache file: /home/fullstack-user/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache Unable to read file '/home/fullstack-user/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache' (Error: Unable to resolve nonexistent file '/home/fullstack-user/.vscode-server/data/CachedProfilesData/__default__profile__/extensions.builtin.cache')
+2024-11-08 01:10:00.542 [info] Started initializing default profile extensions in extensions installation folder. file:///home/fullstack-user/.vscode-server/extensions
+2024-11-08 01:10:00.545 [info] [127.0.0.1][96fed7c1][ManagementConnection] New connection established.
+2024-11-08 01:10:00.631 [info] Log level changed to info
+2024-11-08 01:10:01.173 [info] [127.0.0.1][916f7c5c][ExtensionHostConnection] New connection established.
+2024-11-08 01:10:01.273 [info] [127.0.0.1][916f7c5c][ExtensionHostConnection] <413> Launched Extension Host Process.
+2024-11-08 01:10:01.489 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/fullstack-user/.vscode-server/extensions
+2024-11-08 01:10:03.719 [info] Installing extension 'github.copilot'...
+2024-11-08 01:10:03.725 [info] Installing extension 'github.copilot-chat'...
+2024-11-08 01:10:03.739 [info] Getting Manifest... github.copilot
+2024-11-08 01:10:03.741 [info] Getting Manifest... github.copilot-chat
+2024-11-08 01:10:03.815 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/fullstack-user/.vscode-server/extensions/extensions.json","external":"file:///home/fullstack-user/.vscode-server/extensions/extensions.json","path":"/home/fullstack-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-08 01:10:03.822 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"isApplicationScoped":true,"isBuiltin":false,"installGivenVersion":false,"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/fullstack-user/.vscode-server/extensions/extensions.json","external":"file:///home/fullstack-user/.vscode-server/extensions/extensions.json","path":"/home/fullstack-user/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.1","date":"2024-10-31T05:14:54.222Z"}}
+2024-11-08 01:10:04.249 [info] Getting Manifest... github.copilot-chat
+2024-11-08 01:10:04.739 [info] Getting Manifest... github.copilot
+2024-11-08 01:10:13.929 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 6356ms.
+2024-11-08 01:10:13.966 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 6098ms.
+2024-11-08 01:10:17.150 [info] Extracted extension to file:///home/fullstack-user/.vscode-server/extensions/github.copilot-chat-0.22.2: github.copilot-chat
+2024-11-08 01:10:17.171 [info] Renamed to /home/fullstack-user/.vscode-server/extensions/github.copilot-chat-0.22.2
+2024-11-08 01:10:18.376 [info] Extracted extension to file:///home/fullstack-user/.vscode-server/extensions/github.copilot-1.243.0: github.copilot
+2024-11-08 01:10:18.391 [info] Renamed to /home/fullstack-user/.vscode-server/extensions/github.copilot-1.243.0
+2024-11-08 01:10:18.457 [info] Extension installed successfully: github.copilot-chat file:///home/fullstack-user/.vscode-server/extensions/extensions.json
+2024-11-08 01:10:18.458 [info] Extension installed successfully: github.copilot file:///home/fullstack-user/.vscode-server/extensions/extensions.json
+2024-11-08 01:10:18.466 [info] Extension 'github.copilot-chat' v0.22.2 was successfully installed.
+2024-11-08 01:10:18.467 [info] Extension 'github.copilot' v1.243.0 was successfully installed.
+2024-11-08 01:11:44.393 [info] [127.0.0.1][96fed7c1][ManagementConnection] The client has reconnected.
+2024-11-08 01:11:48.558 [info] [127.0.0.1][916f7c5c][ExtensionHostConnection] The client has reconnected.
+2024-11-08 01:26:13.179 [info] [127.0.0.1][96fed7c1][ManagementConnection] The client has reconnected.
+2024-11-08 01:26:18.469 [info] [127.0.0.1][916f7c5c][ExtensionHostConnection] The client has reconnected.
+2024-11-08 01:35:17.644 [info] [127.0.0.1][96fed7c1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-08 01:35:17.979 [info] [127.0.0.1][916f7c5c][ExtensionHostConnection] <413> Extension Host Process exited with code: 0, signal: null.

@@ -63,3 +63,103 @@ npm install framer-motion
 npm run dev
 clear
 exit
+<<<<<<< Updated upstream
+=======
+ls
+cd backend
+ls
+ls
+cd src
+ls
+cd ..
+cd ..
+cd ..
+ls
+cd ..
+ls
+cd bin
+ls
+cd ..
+ls
+cd home
+ls
+cd fullstack-user/
+ls
+cd back
+cd backend/
+ls
+./venv/bin/activate
+source venv/bin/activate
+ls
+cd src
+python3 app.py
+clr
+cln
+clear
+exit
+npm run dev
+ls
+cd frontend
+npm run dev
+npm run dev
+cd ..
+ls
+cd ..
+ls
+cd fullstack-user/
+ls
+cd ..
+ls
+cd fullstack-user/
+ls
+cd ..
+cd ..
+ls
+cd home
+ls
+cd fullstack-user/
+ls
+cd ..
+ls -la
+cd docker
+pwd
+ls
+ls
+cd fullstack-user/
+ls
+cd frontend/
+npm run dev
+rm -rf node_modules package-lock.json
+npm cache clean --force
+npm install
+clear
+exit
+ls
+cd frontend
+npm run dev
+npm -version
+npm install -g vite
+sudo npm install -g vite
+npm rundev
+npm run dev
+npm install --save-dev @vitejs/plugin-react
+npm run dev
+npm install react
+npm install react
+ls
+cd frontend/
+npm run dev
+git checkout -b
+git checkout
+exit
+git branch
+cd backend
+source ./venv/bin/activate
+ls
+cd src
+python3 app.oy
+python3 app.py
+ls
+cd frontend
+npm run dev
+>>>>>>> Stashed changes
