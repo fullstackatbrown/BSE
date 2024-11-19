@@ -203,3 +203,11 @@ cd ..
 ls
 git checkout
 exit
+ls
+cd frontend/
+npm rund ev
+npm run dev
+npx shadcn@latest add scroll-area
+npm run dev
+npm run dev
+exit

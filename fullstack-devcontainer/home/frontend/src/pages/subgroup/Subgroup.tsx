@@ -1,5 +1,6 @@
 import { Navbar } from "@/components/hero/navbar";
 // import ScrollingMenu from "@/components/ui/scrolling-menu";
+import {SubgroupScrollMenu} from "@/pages/subgroup/subgroup-scroll-menu";
 import "./Subgroup.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -21,6 +22,7 @@ function Subgroup() {
           </div>
         </div>
         <div className="right-box">
+        <SubgroupScrollMenu />
           {/* <ScrollingMenu /> */}
         </div>
       </div>
