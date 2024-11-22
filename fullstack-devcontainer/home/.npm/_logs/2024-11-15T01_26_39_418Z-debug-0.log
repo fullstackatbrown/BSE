@@ -1,0 +1,71 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/fullstack-user/.npmrc
+5 silly config load:file:/usr/etc/npmrc
+6 verbose title npm install npm@10.9.0
+7 verbose argv "install" "--global" "npm@10.9.0"
+8 verbose logfile logs-max:10 dir:/home/fullstack-user/.npm/_logs/2024-11-15T01_26_39_418Z-
+9 verbose logfile /home/fullstack-user/.npm/_logs/2024-11-15T01_26_39_418Z-debug-0.log
+10 silly logfile start cleaning logs, removing 1 files
+11 silly logfile done cleaning log files
+12 http fetch GET 200 https://registry.npmjs.org/npm 468ms (cache miss)
+13 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+14 silly idealTree buildDeps
+15 silly fetch manifest npm@10.9.0
+16 silly packumentCache full:https://registry.npmjs.org/npm cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/npm 1614ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/npm set size:undefined disposed:false
+19 silly placeDep ROOT npm@10.9.0 OK for:  want: 10.9.0
+20 silly reify mark retired [ '/usr/lib/node_modules/npm', '/usr/bin/npm', '/usr/bin/npx' ]
+21 silly reify moves {
+21 silly reify   '/usr/lib/node_modules/npm': '/usr/lib/node_modules/.npm-qUIFSsiV',
+21 silly reify   '/usr/bin/npm': '/usr/bin/.npm-CxSgn0z2',
+21 silly reify   '/usr/bin/npx': '/usr/bin/.npx-akSQqeWh'
+21 silly reify }
+22 verbose stack Error: EACCES: permission denied, rename '/usr/lib/node_modules/npm' -> '/usr/lib/node_modules/.npm-qUIFSsiV'
+22 verbose stack     at async Object.rename (node:internal/fs/promises:783:10)
+22 verbose stack     at async moveFile (/usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+22 verbose stack     at async Promise.allSettled (index 0)
+22 verbose stack     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+22 verbose stack     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+22 verbose stack     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:150:5)
+22 verbose stack     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+22 verbose stack     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5)
+23 error code EACCES
+24 error syscall rename
+25 error path /usr/lib/node_modules/npm
+26 error dest /usr/lib/node_modules/.npm-qUIFSsiV
+27 error errno -13
+28 error Error: EACCES: permission denied, rename '/usr/lib/node_modules/npm' -> '/usr/lib/node_modules/.npm-qUIFSsiV'
+28 error     at async Object.rename (node:internal/fs/promises:783:10)
+28 error     at async moveFile (/usr/lib/node_modules/npm/node_modules/@npmcli/fs/lib/move-file.js:30:5)
+28 error     at async Promise.allSettled (index 0)
+28 error     at async [reifyPackages] (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:325:11)
+28 error     at async Arborist.reify (/usr/lib/node_modules/npm/node_modules/@npmcli/arborist/lib/arborist/reify.js:142:5)
+28 error     at async Install.exec (/usr/lib/node_modules/npm/lib/commands/install.js:150:5)
+28 error     at async Npm.exec (/usr/lib/node_modules/npm/lib/npm.js:207:9)
+28 error     at async module.exports (/usr/lib/node_modules/npm/lib/cli/entry.js:74:5) {
+28 error   errno: -13,
+28 error   code: 'EACCES',
+28 error   syscall: 'rename',
+28 error   path: '/usr/lib/node_modules/npm',
+28 error   dest: '/usr/lib/node_modules/.npm-qUIFSsiV'
+28 error }
+29 error
+29 error The operation was rejected by your operating system.
+29 error It is likely you do not have the permissions to access this file as the current user
+29 error
+29 error If you believe this might be a permissions issue, please double-check the
+29 error permissions of the file and its containing directories, or try running
+29 error the command again as root/Administrator.
+30 silly unfinished npm timer reify 1731634000323
+31 silly unfinished npm timer reify:retireShallow 1731634002704
+32 verbose cwd /home/fullstack-user/frontend
+33 verbose os Linux 6.10.11-linuxkit
+34 verbose node v22.9.0
+35 verbose npm  v10.8.3
+36 verbose exit -13
+37 verbose code -13
+38 error A complete log of this run can be found in: /home/fullstack-user/.npm/_logs/2024-11-15T01_26_39_418Z-debug-0.log

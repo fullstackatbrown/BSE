@@ -163,3 +163,4 @@ ls
 cd frontend
 npm run dev
 >>>>>>> Stashed changes
+git merge origin/main

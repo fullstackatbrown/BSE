@@ -1,0 +1,25 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@10.8.3
+2 info using node@v22.9.0
+3 silly config load:file:/usr/lib/node_modules/npm/npmrc
+4 silly config load:file:/home/fullstack-user/frontend/.npmrc
+5 silly config load:file:/home/fullstack-user/.npmrc
+6 silly config load:file:/usr/etc/npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:/home/fullstack-user/.npm/_logs/2024-11-15T01_26_20_613Z-
+10 verbose logfile /home/fullstack-user/.npm/_logs/2024-11-15T01_26_20_613Z-debug-0.log
+11 silly logfile start cleaning logs, removing 7 files
+12 silly logfile done cleaning log files
+13 http fetch GET 200 https://registry.npmjs.org/npm 233ms
+14 verbose cwd /home/fullstack-user/frontend
+15 verbose os Linux 6.10.11-linuxkit
+16 verbose node v22.9.0
+17 verbose npm  v10.8.3
+18 notice
+18 notice New [33mminor[39m version of npm available! [33m10.8.3[39m -> [34m10.9.0[39m
+18 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v10.9.0[39m
+18 notice To update run: [4mnpm install -g npm@10.9.0[24m
+18 notice  { force: true, [Symbol(proc-log.meta)]: true }
+19 verbose exit 1
+20 verbose code 1
